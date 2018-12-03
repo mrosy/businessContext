@@ -1,0 +1,79 @@
+{
+	"BaseURL" 			: "http://192.168.1.54/rosyeg/JMVC/Login/login.html",
+	"UserName" 			: "rosaline",         
+	"Password" 			: "rosaline1234",
+	"BusinessContextName" : "marshal",
+	
+	
+	"LevelNames" : [
+					{"level1": [
+						{"PlantTreeStructure" :["ActivPlant","Activplant","Plant A","Asset A3","Events","Events A"],
+						 "EventToClick":["AN-events","Rack Count"]
+						}
+					  ],
+					 "level2":[
+						 {"PlantTreeStructure" :["test"],
+						 "EventToClick":["Rack Full","Rack1 count"]
+						}
+					 ]
+							 
+					}
+				  ],
+	"PlantRenames" 		:[{"level1" :	["scan","scanTime"],
+					 		"level2" :   ["isPresent","mode"]
+						 }],
+		
+	"BusinessContextNameSelected" : "marshal",
+	"DuplicateBusinessContextName" : "freshmax",
+	"NullLevelMessage" : "Enter a valid  name.",
+	"LevelNullCheck" : "level1",
+	"enteringNullValue" : [{"": ["Cookies.Data:RSLE:L1.@CLXMaxScanTime", "Cookies.Data:RSLE:L1.@CLXPresentScanTime"],
+							     "level2": ["Cookies.Data:RSLE:L1.@IsPresent","Cookies.Data:RSLE:L1.@Mode"]
+						       }],
+	
+	
+	"SameItemRenameCheck" : "scanmodel",
+	
+	"RenameValidation" : [{"level1" :	["scan","scanTime"],
+					      "level2" :   ["isPresent","mode"]
+					     }],
+	
+	
+	"SameBusinessContextNameMessage" : "Business Context name already exists.",
+	
+	"keyValueforAddLevel" : "LevelNames",
+	"keyValueforRenamePlantItem" : "PlantRenames",
+	"keyValueforValidation" : "RenameValidation",
+	
+	
+	"renameNegativeTest" : "scanTime",
+	"levelUnderWhichPlantitemAdded" : "level1",
+	"enterRenameValue" : "scan",
+	"enterSpecialCharacters" : "@#$%^&",
+	"DuplicateItemName" : "Cookies.Data:RSLE:L1.@CLXPresentScanTime",
+	"MaximumCharactersInRenaming" : "Some software testing tasks such as extensive low level interface regression testing"
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"PlantStructureTree" : ["ActivPlant","Activplant","Plant A","Asset A3","Events","Events A","AN-events"],
+							
+	"EventToClick" : "AN-events",
